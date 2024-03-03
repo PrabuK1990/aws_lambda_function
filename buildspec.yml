@@ -6,4 +6,6 @@ phases:
   build:
     commands:
       - pip install --upgrade awscli
-     
+artifacts:
+  files:
+    - '**/*'
