@@ -1,6 +1,7 @@
 import json
 
 def lambda_handler(event, context):
+    print('hello')
     print('code for aws lambda')
     print("value1 = " + event['key1'])
     print("value2 = " + event['key2'])
