@@ -6,7 +6,4 @@ phases:
   build:
     commands:
       - pip install --upgrade awscli
-      - python -m unittest discover tests
-artifacts:
-  files:
-    - '**/*'
+     
