@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /path/to/your/python/application
+    destination: /test2
 
 hooks:
   BeforeInstall:
