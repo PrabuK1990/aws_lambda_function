@@ -3,8 +3,8 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "myLambdaFunction"
-        Alias: "myLambdaFunctionAlias"
+        Name: "test2"
+        Alias: "default"
         CurrentVersion: "1"
         TargetVersion: "2"
 Hooks:
