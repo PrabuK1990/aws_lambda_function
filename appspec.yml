@@ -7,6 +7,3 @@ Resources:
         Alias: "default"
         CurrentVersion: "1"
         TargetVersion: "2"
-Hooks:
-  - BeforeAllowTraffic: "LambdaFunctionToValidateBeforeTrafficShift"
-  - AfterAllowTraffic: "LambdaFunctionToValidateAfterTrafficShift"
