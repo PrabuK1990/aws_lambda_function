@@ -1,9 +1,7 @@
 import unittest
 import lambda_function
 
-
 class TestHandlerCase(unittest.TestCase):
-
     def test_response(self):
         print("testing response.")
         event={'Country':'USA'}
@@ -18,7 +16,6 @@ class TestHandlerCase(unittest.TestCase):
         self.assertEqual(result['statusCode'], 200)
         self.assertEqual(result['headers']['Content-Type'], 'application/json')
         self.assertIn('Hello from '+event['Country'], result['body'])
-
 
 if __name__ == '__main__':
     unittest.main()
