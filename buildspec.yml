@@ -8,5 +8,6 @@ phases:
       - pip install --upgrade awscli
       - python -m unittest discover test2
 artifacts:
+  type: zip
   files:
     - '**/*'
