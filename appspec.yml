@@ -1,9 +1,0 @@
-version: 0.0
-Resources:
-  - test2:
-      Type: AWS::Lambda::Function
-      Properties:
-        Name: "test2"
-        Alias: "test2Alias2"
-        CurrentVersion: "1"
-        TargetVersion: "2"
