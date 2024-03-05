@@ -9,6 +9,7 @@ phases:
       - python -m unittest discover test2
   
   deploy:
+    commands:
 	    - zip -r function.zip ./
 	    - aws lambda update-function-code --function-name "test2" --zip-file fileb://function.zip --region="eu-north-1" jq ".LastUpdateStatusReason" -r
 	    - aws lambda wait function-updated --function-name "test2" --region="eu-north-1
