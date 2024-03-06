@@ -1,8 +1,0 @@
-resources:
-  - test2:
-      type: "AWS::Lambda::Function"
-      properties:
-        name: "test2"
-        alias: "default"
-        currentversion: 1
-        targetversion: 1
